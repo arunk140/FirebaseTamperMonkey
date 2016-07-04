@@ -13,3 +13,12 @@ var config = {
 ```
 
 
+Set Firebase Database rules to -
+```
+{
+  "rules": {
+    ".read": true,
+    ".write": true
+  }
+}
+```
